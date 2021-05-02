@@ -1,0 +1,42 @@
+{
+  "api/CG.Configuration.Clients.Options.html": {
+    "href": "api/CG.Configuration.Clients.Options.html",
+    "title": "Namespace CG.Configuration.Clients.Options",
+    "keywords": "Namespace CG.Configuration.Clients.Options Classes OliveConfigurationOptions This class represent configuration options for the CG.Configuration.Clients.Providers.OliveConfigurationProvider provider."
+  },
+  "api/CG.Configuration.Clients.Options.OliveConfigurationOptions.html": {
+    "href": "api/CG.Configuration.Clients.Options.OliveConfigurationOptions.html",
+    "title": "Class OliveConfigurationOptions",
+    "keywords": "Class OliveConfigurationOptions This class represent configuration options for the CG.Configuration.Clients.Providers.OliveConfigurationProvider provider. Inheritance System.Object CG.DataAnnotations.ValidatableObject CG.Options.OptionsBase OliveConfigurationOptions Implements System.ComponentModel.DataAnnotations.IValidatableObject Inherited Members CG.DataAnnotations.ValidatableObject.Validate(System.ComponentModel.DataAnnotations.ValidationContext) System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : CG.Configuration.Clients.Options Assembly : CG.Configuration.Clients.dll Syntax public class OliveConfigurationOptions : OptionsBase, IValidatableObject Constructors OliveConfigurationOptions() This constructor creates a new instance of the OliveConfigurationOptions class. Declaration public OliveConfigurationOptions() Properties Environment This property contains an optional environment name. Declaration public string Environment { get; set; } Property Value Type Description System.String FilterChangesByApplication This property indicates whether the provider should only respond to change notifications from the current application. Declaration public bool FilterChangesByApplication { get; set; } Property Value Type Description System.Boolean FilterChangesByKeys This property indicates whether the provider should only respond to change notifications for a specified set of keys. Declaration public string[] FilterChangesByKeys { get; set; } Property Value Type Description System.String [] ReloadOnChange This property indicates whether the provider should reload data whenver the remote data source detects a change. Declaration public bool ReloadOnChange { get; set; } Property Value Type Description System.Boolean Sid This property contains a security identifer for the server application. Declaration public string Sid { get; set; } Property Value Type Description System.String SKey This property contains a security key for the server application. Declaration public string SKey { get; set; } Property Value Type Description System.String Url This property contains a URL for the server connection. Declaration [Required] public string Url { get; set; } Property Value Type Description System.String Implements System.ComponentModel.DataAnnotations.IValidatableObject"
+  },
+  "api/CG.Configuration.Clients.Sources.html": {
+    "href": "api/CG.Configuration.Clients.Sources.html",
+    "title": "Namespace CG.Configuration.Clients.Sources",
+    "keywords": "Namespace CG.Configuration.Clients.Sources Interfaces IOliveConfigurationSource"
+  },
+  "api/CG.Configuration.Clients.Sources.IOliveConfigurationSource.html": {
+    "href": "api/CG.Configuration.Clients.Sources.IOliveConfigurationSource.html",
+    "title": "Interface IOliveConfigurationSource",
+    "keywords": "Interface IOliveConfigurationSource Inherited Members Microsoft.Extensions.Configuration.IConfigurationSource.Build(Microsoft.Extensions.Configuration.IConfigurationBuilder) Namespace : CG.Configuration.Clients.Sources Assembly : CG.Configuration.Clients.dll Syntax public interface IOliveConfigurationSource : IConfigurationSource Properties Options This property contains the options for the source. Declaration OliveConfigurationOptions Options { get; } Property Value Type Description OliveConfigurationOptions"
+  },
+  "api/Microsoft.Extensions.Configuration.ConfigurationBuilderExtensions.html": {
+    "href": "api/Microsoft.Extensions.Configuration.ConfigurationBuilderExtensions.html",
+    "title": "Class ConfigurationBuilderExtensions",
+    "keywords": "Class ConfigurationBuilderExtensions This class contains extension methods related to the Microsoft.Extensions.Configuration.IConfigurationBuilder type, for registering types related to this extension. Inheritance System.Object ConfigurationBuilderExtensions Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : Microsoft.Extensions.Configuration Assembly : CG.Configuration.Clients.dll Syntax public static class ConfigurationBuilderExtensions Methods AddOlive(IConfigurationBuilder, Action<OliveConfigurationOptions>) This method adds an CG.Olive configuration source to the specified configuration builder. Declaration public static IConfigurationBuilder AddOlive(this IConfigurationBuilder builder, Action<OliveConfigurationOptions> optionsDelegate) Parameters Type Name Description Microsoft.Extensions.Configuration.IConfigurationBuilder builder The builder to use for the operation. System.Action < OliveConfigurationOptions > optionsDelegate The options delegate to use for the operation. Returns Type Description Microsoft.Extensions.Configuration.IConfigurationBuilder The value of the builder parameter."
+  },
+  "api/Microsoft.Extensions.Configuration.html": {
+    "href": "api/Microsoft.Extensions.Configuration.html",
+    "title": "Namespace Microsoft.Extensions.Configuration",
+    "keywords": "Namespace Microsoft.Extensions.Configuration Classes ConfigurationBuilderExtensions This class contains extension methods related to the Microsoft.Extensions.Configuration.IConfigurationBuilder type, for registering types related to this extension."
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here!",
+    "keywords": "Add your introductions here!"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Introduction",
+    "keywords": "Introduction CG.Configuration.Clients.dll contains a provider that integrates the Microsoft.Extensions.Configuration library with the CG.Olive configuration & feature micro-service."
+  }
+}
