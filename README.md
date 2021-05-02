@@ -1,10 +1,10 @@
 # CG.Configuration.Clients: 
 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Configuration.Clients/_apis/build/status/CodeGator.CG.Configuration.Clients?branchName=master)](https://dev.azure.com/codegator/CG.Configuration.Clients/_build/latest?definitionId=4&branchName=master)
+[![Build Status](https://dev.azure.com/codegator/CG.Configuration.Clients/_apis/build/status/CodeGator.CG.Configuration.Clients?branchName=main)](https://dev.azure.com/codegator/CG.Configuration.Clients/_build/latest?definitionId=62&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Configuration.Clients/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Configuration.Clients.svg?style=flat)](https://nuget.org/packages/CG.Configuration.Clients)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Configuration.Clients/4)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Configuration.Clients/62)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Configuration.Clients/discussions)
 
 #### What does it do?
