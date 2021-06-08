@@ -13,90 +13,6 @@
       "is_incremental": false
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Configuration.Clients.Options.OliveConfigurationOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Configuration.Clients.Options.OliveConfigurationOptions.html",
-          "hash": "ATBJVhupPX1hSLC4Vdlb4n/vQ64qWlG4v0FRxH1csbU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Configuration.Clients.Options.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Configuration.Clients.Options.html",
-          "hash": "w1dlXfSoeqKQYQ28RuHhN39eVV2XDJ0UZa/IGMz9Duk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Configuration.Clients.Sources.IOliveConfigurationSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Configuration.Clients.Sources.IOliveConfigurationSource.html",
-          "hash": "xdW8zKj+MzARdT/jm21bJKui+3N851wyEhBaNpuWmVY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Configuration.Clients.Sources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Configuration.Clients.Sources.html",
-          "hash": "8et0WkFLYnUifydO5B4o4PZsrBkEkjIR0/RqkDXI1Dc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.Configuration.ConfigurationBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.Configuration.ConfigurationBuilderExtensions.html",
-          "hash": "6TLJJdmUtBYH2JmUnNWi7pTeDPKRILhb+jeSul8I76s="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.Configuration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.Extensions.Configuration.html",
-          "hash": "EKl7K8apQ1GZcqmpTkfI7ueQaJ8spkiLOI5kEO4y0Mo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "fanxe3E1c8AwU5al9dAjwmsZbdDBf9tmcWXUCEMYYUY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
@@ -141,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "TVdCKgKh9ohSvtpWqj4Y3r2z6dCV8yqfEehircbqPMI="
+          "hash": "vHEsBzkid6dUSDzD4KjCPlZz7UzfUEBAxRYPI5pLbAI="
         }
       },
       "is_incremental": false,
@@ -163,12 +79,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
