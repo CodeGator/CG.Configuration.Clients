@@ -6,6 +6,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Configuration.Clients.svg?style=flat)](https://nuget.org/packages/CG.Configuration.Clients)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Configuration.Clients/62)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Configuration.Clients/discussions)
+[![CG.Configuration.Clients on fuget.org](https://www.fuget.org/packages/CG.Configuration.Clients/badge.svg)](https://www.fuget.org/packages/CG.Configuration.Clients)
 
 #### What does it do?
 The package contains a provider that integrates between the Microsoft.Configuration.Clients package and the CG.Olive configuration & feature set micro-service.
@@ -20,6 +21,8 @@ PM> Install-Package CG.Configuration.Clients
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Configuration.Clients/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Configuration.Clients/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Configuration.Clients/)
