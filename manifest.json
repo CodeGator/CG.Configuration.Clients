@@ -13,12 +13,96 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Configuration.Clients.Options.OliveConfigurationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Configuration.Clients.Options.OliveConfigurationOptions.html",
+          "hash": "wk3Gr5i8a8w0vNiP1Oja8ngVeB3Y1FZYLsoj0Em8AL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Configuration.Clients.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Configuration.Clients.Options.html",
+          "hash": "peWpZdfXUshzMx1I33/A7oCAK9O8NOMa/+GHEPXJhq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Configuration.Clients.Sources.IOliveConfigurationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Configuration.Clients.Sources.IOliveConfigurationSource.html",
+          "hash": "VF/nShvpdlo3KgfYuFM2YxaGnOpoBNXmvXY3aRlP3pI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Configuration.Clients.Sources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Configuration.Clients.Sources.html",
+          "hash": "KieJimXFXn8xkcyE6fTb0gVULS5lHZs+1MTsldVRa1I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.Configuration.ConfigurationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.Configuration.ConfigurationBuilderExtensions.html",
+          "hash": "HAD270uH1PsBCSZKTDFpKYCh0BTBn8wy6/KPHUkoc1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.Configuration.html",
+          "hash": "Tagpe0mveZ5vaIEBCxYZCUQYKbDMl/sMxMH5G3WOWB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "fanxe3E1c8AwU5al9dAjwmsZbdDBf9tmcWXUCEMYYUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
         }
       },
       "is_incremental": false,
@@ -45,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "5zkXREDVRDhnxVRP2bUsi9oRSUszpIUxgaz2O5b1Vew="
+          "hash": "dvj416m01hSc+F9sR65aNy936I0glrSCM82U+kWbtd8="
         }
       },
       "is_incremental": false,
@@ -57,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "vHEsBzkid6dUSDzD4KjCPlZz7UzfUEBAxRYPI5pLbAI="
+          "hash": "TVdCKgKh9ohSvtpWqj4Y3r2z6dCV8yqfEehircbqPMI="
         }
       },
       "is_incremental": false,
@@ -79,6 +163,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
