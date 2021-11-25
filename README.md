@@ -12,7 +12,7 @@
 The package contains a provider that integrates between the Microsoft.Configuration.Clients package and the CG.Olive configuration & feature set micro-service.
 
 #### What platform(s) does it support?
-* .NET 5.x or above
+* .NET 6.x or above
 
 #### How do I install it?
 The binary is hosted on [NuGet](https://www.nuget.org/packages/CG.Configuration.Clients). To install the package using the NuGet package manager:
